@@ -16,6 +16,12 @@
     color: rgba(20, 16, 17, 0.5);
     font-size:100px
   } */
+
+  /* body{
+    margin:0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.849)
+  } */
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
@@ -30,6 +36,10 @@
     border-bottom: 1.5px solid rgb(112, 81, 81);
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .float-right p{
+    color: white;
   }
 
   .social-media {
@@ -63,7 +73,7 @@
 .fa-facebook .tooltiptext {
   visibility: hidden;
   /* background-color: green; */
-  color: black;
+  color: white;
   text-align: center;
   padding: 2px 0;
   border-radius: 6px;
@@ -71,7 +81,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
  
   /* Position the tooltip text - see examples below! */
@@ -93,7 +103,7 @@
 .fa-instagram .tooltiptext {
   visibility: hidden;
   /* background-color: green; */
-  color: black;
+  color: white;
   text-align: center;
   padding: 2px 0;
   border-radius: 6px;
@@ -101,7 +111,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
  
   /* Position the tooltip text - see examples below! */
@@ -123,7 +133,7 @@
 .fa-twitter .tooltiptext {
   visibility: hidden;
   /* background-color: green; */
-  color: black;
+  color: white;
   text-align: center;
   padding: 2px 0;
   border-radius: 6px;
@@ -131,7 +141,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
  
   /* Position the tooltip text - see examples below! */
@@ -153,7 +163,7 @@
 .fa-youtube .tooltiptext {
   visibility: hidden;
   /* background-color: green; */
-  color: black;
+  color: white;
   text-align: center;
   padding: 2px 0;
   border-radius: 6px;
@@ -161,7 +171,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
  
   /* Position the tooltip text - see examples below! */
@@ -183,7 +193,7 @@
 .fa-twitch .tooltiptext {
   visibility: hidden;
   /* background-color: green; */
-  color: black;
+  color: white;
   text-align: center;
   padding: 2px 0;
   border-radius: 6px;
@@ -191,7 +201,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
  
   /* Position the tooltip text - see examples below! */
@@ -203,6 +213,8 @@
 .fa-twitch:hover .tooltiptext {
   visibility: visible;
 }
+
+
  
   *{
     font-family: 'Poppins', sans-serif;
@@ -253,7 +265,7 @@
 }
 
 .col-md-4:hover{
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.651);
   transform: translateY(-10px);
 }
 
