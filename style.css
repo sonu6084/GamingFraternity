@@ -16,6 +16,11 @@
     color: rgba(20, 16, 17, 0.5);
     font-size:100px
   } */
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
@@ -37,6 +42,174 @@
     margin-bottom: 20px;
     font-size: 20px;
   }
+  .fa-facebook:hover{
+    transform: translateY(-5px);
+  }
+  .fa-instagram:hover{
+    transform: translateY(-5px);
+  }
+  .fa-twitter:hover{
+    transform: translateY(-5px);
+  }
+  .fa-youtube:hover{
+    transform: translateY(-5px);
+  }
+  .fa-twitch:hover{
+    transform: translateY(-5px);
+  }
+
+  /* Tooltip container */
+ .fa-facebook{
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+} 
+/* Tooltip text */
+.fa-facebook .tooltiptext {
+  visibility: hidden;
+  /* background-color: green; */
+  color: black;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 10px;
+  margin-top: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-facebook:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-instagram{
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+} 
+/* Tooltip text */
+.fa-instagram .tooltiptext {
+  visibility: hidden;
+  /* background-color: green; */
+  color: black;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 10px;
+  margin-top: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-instagram:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-twitter{
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+} 
+/* Tooltip text */
+.fa-twitter .tooltiptext {
+  visibility: hidden;
+  /* background-color: green; */
+  color: black;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 10px;
+  margin-top: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-twitter:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-youtube{
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+} 
+/* Tooltip text */
+.fa-youtube .tooltiptext {
+  visibility: hidden;
+  /* background-color: green; */
+  color: black;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 10px;
+  margin-top: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-youtube:hover .tooltiptext {
+  visibility: visible;
+}
+
+.fa-twitch{
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+} 
+/* Tooltip text */
+.fa-twitch .tooltiptext {
+  visibility: hidden;
+  /* background-color: green; */
+  color: black;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 10px;
+  margin-top: 10px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-twitch:hover .tooltiptext {
+  visibility: visible;
+}
+
+
  
   *{
     font-family: 'Poppins', sans-serif;
@@ -85,29 +258,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.Container{
-    width:90%;
-    margin:auto;
-    overflow:hidden;
+
+.col-md-4:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+  transform: translateY(-10px);
 }
 
-footer{
-    color: rgb(144, 144, 144);
-    background-color: #262626;
-    font-size:14px;
-    text-align: center;
-}
-footer:hover{
-    color: #fff;
-}
-.top-go{
-	color:#007bff;
-	padding:0px;
-}
-.top-go:hover{
-		background-color: #007bff;
-		color: #fff;
-}
 /* figcaption {
   display: block;
 }
