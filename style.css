@@ -16,6 +16,10 @@
     color: rgba(20, 16, 17, 0.5);
     font-size:100px
   } */
+
+  html{
+    scroll-behavior: smooth;
+  }
   
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
