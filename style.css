@@ -71,7 +71,43 @@
   margin-left: -20px;
   margin-top: -20px;
 }
+.itext {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.centered {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+
+footer{
+    color: rgb(144, 144, 144);
+    background-color: #262626;
+    font-size:14px;
+    text-align: center;
+}
+footer:hover{
+    color: #fff;
+}
+.top-go{
+	color:#007bff;
+	padding:0px;
+}
+.top-go:hover{
+		background-color: #007bff;
+		color: #fff;
+}
 /* figcaption {
   display: block;
 }
